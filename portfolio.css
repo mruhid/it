@@ -15,14 +15,15 @@
     background-color: teal;
     color: white;
     padding: 17px;
-    margin: 0;
+    margin:0;
+    
   }
   nav ul {
     display: flex;
     justify-self: end;
     align-items: center;
     gap: 18px;
-  }  
+  }
   nav ul li {
     list-style: none;
   }
@@ -30,83 +31,37 @@
     text-decoration: none;
     color: black;
   }
-  
-  body {
-    background-color: rgb(214, 213, 213);
+  body{
+    background-color: rgb(214,213,213);
   }
-  body .body_size {
+  body .body_size{
     margin-bottom: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 28px;
+    gap: 20px;
   }
-  body .body_size .body_left {
+  body .body_size .body_left{
     padding: 20px;
     width: 642px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
     margin-top: 20px;
-    background-color: #fff;
   }
-  body .body_size .body_left h3 {
+  body .body_size .body_left h2{
     color: teal;
+    padding-bottom: 20px;
     font-size: 26px;
     border-bottom: 1px solid gray;
     margin-bottom: 27px;
-    padding-bottom: 20px;
-  }
-  body .body_size .body_left img {
-    width: 200px;
-    height: 200px;
-  }
-  body .body_size .body_left p {
-    color: grey;
-  }
-  body .body_size .body_left_contact {
-    padding: 20px;
-    width: 642px;
-    margin-top: 20px;
-    background-color: #fff;
-  }
-  body .body_size .body_left_contact form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 15px;
-  }
-  body .body_size .body_left_contact form label {
-    font-size: 17px;
-    color: #747474;
-  }
-  body .body_size .body_left_contact form input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid rgb(184, 175, 175);
-  }
-  body .body_size .body_left_contact form textarea {
-    width: 100%;
-    border: 1px solid rgb(184, 175, 175);
-  }
-  body .body_size .body_left_contact form #submit {
-    background-color: teal;
-    color: white;
-    padding: 10px;
-    width: 100px;
-    border: none;
-    border: 1px solid transparent;
-  }
-  body .body_size .body_left_contact h3 {
-    color: teal;
-    font-size: 26px;
-    border-bottom: 1px solid gray;
-    margin-bottom: 27px;
-    padding-bottom: 20px;
   }
   body .body_size .body_right {
     margin-bottom: auto;
     margin-top: 20px;
     background-color: #fff;
     padding: 20px;
+    width: 300px;
+    height: 170px;
   }
   body .body_size .body_right h3 {
     color: teal;
@@ -127,12 +82,12 @@
   body footer {
     background-color: grey;
     padding: 21px;
-    margin-top: auto;
+    margin-top:383px;
   }
   body footer p {
     color: #fff;
     text-align: center;
   }
   .left{
-    background-color: red;
+    background-color:teal;
   }
