@@ -3,76 +3,79 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-  }
-  
-  nav {
+}
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
-  }
-  nav h2 {
+}
+nav h2{
     background-color: teal;
     color: white;
     padding: 17px;
-    margin:0;
-    
-  }
-  nav ul {
+    margin: 0;
+}
+nav ul{
     display: flex;
     justify-self: end;
     align-items: center;
     gap: 18px;
-  }
-  nav ul li {
+}
+nav ul li{
     list-style: none;
-  }
-  nav ul li a {
+    
+}
+nav ul li a{
     text-decoration: none;
-    color: black;
-  }
-  body{
-    background-color: rgb(214,213,213);
-  }
-  body .body_size{
+    color: gray;
+}
+body{
+    background-color: rgb(214, 213, 213);
+}
+body .body_size{
     margin-bottom: 18px;
+    
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  body .body_size .body_left{
+    align-content: center;
+    gap: 28px;
+}
+body .body_size .body_left{
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     width: 642px;
-    height: 170px;
-    background-color: rgb(255, 255, 255);
     margin-top: 20px;
-  }
-  body .body_size .body_left h2{
+}
+body .body_size .body_left img{
+    width: 200px;
+    height: 200px;
+}
+body .body_size .body_left h2{
     color: teal;
-    padding-bottom: 20px;
     font-size: 26px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid grey;
     margin-bottom: 27px;
-  }
-  body .body_size .body_right {
+    padding-bottom: 20px;
+}
+body .body_size .body_left p{
+    color: grey;
+}
+body .body_size .body_right{
     margin-bottom: auto;
     margin-top: 20px;
     background-color: #fff;
     padding: 20px;
-  }
-  body .body_size .body_right h3 {
+    
+}
+body .body_size .body_right h3{
     color: teal;
     font-size: 26px;
     border-bottom: 1px solid gray;
     margin-bottom: 27px;
     padding-bottom: 20px;
-  }
-  body .body_size .body_left p{
-    color: grey;
-    font-size: 20px;
-  }
-  body .body_size .body_right .icons {
+}
+body .body_size .body_right .icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,10 +87,9 @@
   body footer {
     background-color: grey;
     padding: 21px;
-    margin-top:383px;
+    margin-top:194px;
   }
   body footer p {
     color: #fff;
     text-align: center;
   }
-  
